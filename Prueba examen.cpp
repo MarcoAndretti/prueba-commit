@@ -20,7 +20,7 @@ int main() {
     return 0;
 }*/
 
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 
 int main() {
@@ -48,5 +48,24 @@ int main() {
     cout << "El mayor de los tres números ingresados es: " << mayor << endl;
 
     return 0;
+}*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numero;
+
+    cout << "Ingrese un número entero: ";
+    cin >> numero;
+
+    if (numero % 2 == 0) {
+        cout << "El número ingresado es par." << endl;
+    } else {
+        cout << "El número ingresado es impar." << endl;
+    }
+
+    return 0;
 }
+
 
